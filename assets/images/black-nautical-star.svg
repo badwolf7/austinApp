@@ -1,0 +1,18 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <title>Blue Nautical Star</title>
+
+ <g>
+  <title>Layer 1</title>
+  <path d="m242.815002,258.570007c0,0.790985 -34.528,-45.581009 -45.915009,-60.688004c0,0 11.387009,15.106995 -0.181992,-0.238007c11.298996,-44.817993 45.744995,-178.560698 45.744995,-178.560698c0,0 0.264008,179.827696 0.352005,239.486708z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#ffffff" id="path2355"/>
+  <path d="m242.815002,19.096701l0,238.62031l45.501007,-60.430008l-0.037994,0c-0.038025,0 -34.28302,-134.114403 -45.463013,-178.190302z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#000000" id="path4704"/>
+  <path d="m288.421997,197.287003l180.355011,-10.417999l-225.962006,71.784988l45.606995,-61.366989z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#ffffff" id="path2339"/>
+  <path d="m242.447006,258.312012l225.792007,-71.181015l-152.113007,99.763992l-73.679001,-28.582977z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#000000" id="path2341"/>
+  <path d="m381.515015,458.242004l-65.381012,-171.824005l-73.503006,-27.97699l138.884018,199.800995z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#ffffff" id="path2343"/>
+  <path d="m381.820007,458.5l-139.097,-199.994995l-0.509003,82.43399l139.606003,117.561005z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#000000" id="path2345"/>
+  <path d="m101.780998,458.049988l140.942009,-199.543976l0.091995,83.03299l-141.034004,116.510986z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#ffffff" id="path2347"/>
+  <path d="m242.447006,257.312012l-140.710007,200.187988l66.164001,-172.697998l74.546005,-27.48999z" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#000000" id="path2349"/>
+  <path d="m242.630997,258.014008l-74.744003,27.951996l-152.331393,-99.88501l227.075397,71.933014" stroke-width="3" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#ffffff" id="path2351"/>
+  <path d="m242.815002,258.743011l-227.205402,-72.740005l180.745396,11.343994l46.460007,61.396011z" stroke-miterlimit="4" stroke-linejoin="round" stroke-dashoffset="0" stroke="#000000" marker-start="none" marker-mid="none" marker-end="none" fill-rule="nonzero" fill="#f7041b" id="path2353"/>
+  <path d="m14.25,185.5l226.75,72.75l-45.75,-61.25l-181,-11.5z" stroke-width="3" stroke="#000000" fill="#000000" id="svg_1"/>
+ </g>
+</svg>
