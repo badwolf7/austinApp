@@ -297,6 +297,12 @@ footer ul li a .fa{
 	main .cta .cta-txt h3{
 		font-size: 1.5em;
 	}
+	footer ul li a{
+		font-size: .75em;
+	}
+	footer ul li a .fa{
+		font-size: 1.8em;
+	}
 }
 @media(min-width: 600px) and (max-width: 700px){
 	main .cta img{
