@@ -1,4 +1,4 @@
- /*
+/*
 Burnt Orange
 191,87,0
 #BF5700
@@ -109,22 +109,22 @@ a:hover, a:focus{
 }
 
 /* ========== Nav ========== */
-nav.sidr ul:first-child li:first-child{
+nav.sidr > ul:nth-child(2) > li:first-child{
 	background: #656E75;
 }
-nav.sidr ul:first-child li:nth-child(2){
+nav.sidr > ul:nth-child(2) > li:nth-child(2){
 	background: #AA561D;
 }
-nav.sidr ul:first-child li:nth-child(3){
+nav.sidr > ul:nth-child(2) > li:nth-child(3){
 	background: #674B32;
 }
-nav.sidr ul:first-child li:nth-child(4){
+nav.sidr > ul:nth-child(2) > li:nth-child(4){
 	background: #733F3C;
 }
-nav.sidr ul:first-child li:last-child{
+nav.sidr > ul:nth-child(2) > li:last-child{
 	background: #616328;
 }
-nav.sidr ul:first-child li:hover{
+nav.sidr > ul:nth-child(2) > li:hover{
 	box-shadow: inset 0 0 6px 0 rgba(34,34,34,.45) !important;
 }
 
@@ -136,7 +136,7 @@ header a{
 	display: block !important;
 	width: 100%;
 }
-header a, header img{
+header a, header .logo img{
 	padding: 0 !important;
 }
 header .fa.fa-bars, header .fa.fa-search{
@@ -148,11 +148,11 @@ header .fa.fa-bars, header .fa.fa-search{
 header .fa.fa-bars:hover, header .fa.fa-search:hover{
 	color: #6B6361;
 }
-header img{
+header .logo img{
 	display: block;
 	width: 60%;
 	min-width: 200px;
-	max-width: 265px;
+	max-width: 255px;
 	margin: 0 auto;
 }
 
@@ -222,16 +222,6 @@ main section.headlines ul li .caret{
 	border-right: 10px solid transparent;
 	border-top: 10px solid #EBE8E1;
 	margin-top: 9px;
-}
-main section.headlines ul li ul li a:after{
-	content: ">";
-	float: right;
-	margin: -27px -7px 0 0;
-	padding: 0;
-	font-size: 1.4em;
-}
-main section.headlines > ul > li:first-child a:after{
-	margin-top: -8px;
 }
 main section.headlines ul li a span.title{
 	font-size: 1.1em;
