@@ -247,7 +247,6 @@ footer ul{
 footer ul li{
 	width: 20%;
 	float: left;
-	padding: 20px 0;
 }
 footer > ul > li:first-child{
 	background: #656E75;
@@ -271,6 +270,10 @@ footer ul li a{
 	color: #F4F3EF;
 	display: block;
 	text-align: center;
+	padding: 20px 0;
+}
+footer ul li a:hover{
+	color: #F4F3EF;
 }
 footer ul li a .fa{
 	margin-bottom: 7px;
