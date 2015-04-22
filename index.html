@@ -26,8 +26,8 @@
 
 		<!-- Bootstrap -->
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" rel="stylesheet" href="assets/css/jquery.sidr.dark.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.sidr.dark.css">
 		<!-- JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/transition.min.js"></script>
@@ -41,13 +41,6 @@
 		<div class="wrapper">
 			<nav id="sidr">
 				<ul>
-					<li><a href="">Resident</a></li>
-					<li><a href="">Business</a></li>
-					<li><a href="">Development</a></li>
-					<li><a href="">Government</a></li>
-					<li><a href="">Environment</a></li>
-				</ul>
-				<ul>
 					<li><a href="">Pay Online</a></li>
 					<li><a href="">Services</a></li>
 					<li><a href="">Calendar</a></li>
@@ -55,6 +48,65 @@
 					<li><a href="">Departments</a></li>
 					<li><a href="">3-1-1</a></li>
 					<li><a href="">Translate</a></li>
+				</ul>
+				<ul>
+					<li><a href="">Resident</a>
+						<ul>
+							<li><a href="">Household</a></li>
+							<li><a href="">Neighborhoods</a></li>
+							<li><a href="">Health</a></li>
+							<li><a href="">Public Safety</a></li>
+							<li><a href="">Arts and Leisure</a></li>
+							<li><a href="">Environmental</a></li>
+							<li><a href="">Transportation</a></li>
+							<li><a href="">City of Austin</a></li>
+						</ul>
+					</li>
+					<li><a href="">Business</a>
+						<ul>
+							<li><a href="">Doin Business</a></li>
+							<li><a href="">Starting Out</a></li>
+							<li><a href="">City Contracts</a></li>
+							<li><a href="">Small Business Centers</a></li>
+							<li><a href="">Special Events</a></li>
+							<li><a href="">Nonprofits</a></li>
+							<li><a href="">Green Resources</a></li>
+						</ul>
+					</li>
+					<li><a href="">Development</a>
+						<ul>
+							<li><a href="">Development &amp; Consulting</a></li>
+							<li><a href="">Permits</a></li>
+							<li><a href="">Inspections</a></li>
+							<li><a href="">Neighborhoods</a></li>
+							<li><a href="">Planning</a></li>
+							<li><a href="">Information Center</a></li>
+							<li><a href="">Search for Permits/Case Info</a></li>
+						</ul>
+					</li>
+					<li><a href="">Government</a>
+						<ul>
+							<li><a href="">City Council</a></li>
+							<li><a href="">Boards and Commissions</a></li>
+							<li><a href="">City Manager's Office</a></li>
+							<li><a href="">City Hall</a></li>
+							<li><a href="">Departments</a></li>
+							<li><a href="">Jobs</a></li>
+							<li><a href="">Get Involved</a></li>
+							<li><a href="">Public Records</a></li>
+						</ul>
+					</li>
+					<li><a href="">Environment</a>
+						<ul>
+							<li><a href="">Energy</a></li>
+							<li><a href="">Green Building</a></li>
+							<li><a href="">Zero Waste</a></li>
+							<li><a href="">Water</a></li>
+							<li><a href="">Nature</a></li>
+							<li><a href="">Trees</a></li>
+							<li><a href="">Sustainability</a></li>
+						</ul>
+					</li>
 				</ul>
 			</nav>
 			<main id="panel">
@@ -76,9 +128,11 @@
 						<h3>At Barton Springs, April 25, noon to 2 p.m.</h3>
 					</article>
 				</section>
-				<section class="headlines accordion">
+				<section id="headlines" class="headlines accordion">
 					<ul class="accordion-group">
-						<li class="accordion-heading"><a data-toggle="collapse" href="#resCollapseOne">Resident Headlines <span class="caret"></span></a></li>
+						<li class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#headlines" href="#resCollapseOne">Resident Headlines <span class="caret"></span></a>
+						</li>
 						<li id="resCollapseOne" class="accordion-body collapse in">
 							<ul class="accordion-inner">
 								<li><a href=""><span class="title">Fair Housing Conference on May 8th</span><br>The conference will be held from 8:30 a.m. to 3 p.m.</a></li>
@@ -90,7 +144,9 @@
 						</li>
 					</ul>
 					<ul class="accordion-group">
-						<li class="accordion-heading"><a data-toggle="collapse" href="#resCollapseTwo">Looking Ahead <span class="caret"></span></a></li>
+						<li class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#headlines" href="#resCollapseTwo">Looking Ahead <span class="caret"></span></a>
+						</li>
 						<li id="resCollapseTwo" class="accordion-body collapse in">
 							<ul class="accordion-inner">
 								<li>
@@ -114,7 +170,9 @@
 						</li>
 					</ul>
 					<ul class="accordion-group">
-						<li class="accordion-heading"><a data-toggle="collapse" href="#resCollapseThree">Best Managed City <span class="caret"></span></a></li>
+						<li class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#headlines" href="#resCollapseThree">Best Managed City <span class="caret"></span></a>
+						</li>
 						<li id="resCollapseThree" class="accordion-body collapse in">
 							<ul class="accordion-inner">
 								<li><a href=""><span class="title">Austin ranked #1 U.S. city for wildlife</span></a></li>
@@ -126,7 +184,9 @@
 						</li>
 					</ul>
 					<ul class="accordion-group">
-						<li class="accordion-heading"><a data-toggle="collapse" href="#resCollapseFour">Connect with Austin <span class="caret"></span></a></li>
+						<li class="accordion-heading">
+							<a class="accordion-toggle" data-toggle="collapse" data-parent="#headlines" href="#resCollapseFour">Connect with Austin <span class="caret"></span></a>
+						</li>
 						<li id="resCollapseFour" class="accordion-body collapse in">
 							<ul class="accordion-inner">
 								<li><a href=""><span class="title">Media Contacts</span></a></li>
@@ -144,9 +204,54 @@
 						</li>
 					</ul>
 				</section>
+				<section class="banners">
+					<ul class="row">
+						<li class="col-xs-6 col-sm-3">
+							<a href=""><img class="col-xs-12" src="http://austintexas.gov/sites/default/files/atxgov_CouncilMsgBrd_smlpro.jpg" alt="Council Message Board"></a>
+						</li>
+						<li class="col-xs-6 col-sm-3">
+							<a href=""><img class="col-xs-12" src="http://austintexas.gov/sites/default/files/Library_app.jpg" alt="Open App Library"></a>
+						</li>
+						<li class="col-xs-6 col-sm-3">
+							<a href=""><img class="col-xs-12" src="http://austintexas.gov/sites/default/files/CouncilBriefings_smlpro.png" alt="Council Briefings"></a>
+						</li>
+						<li class="col-xs-6 col-sm-3">
+							<a href=""><img class="col-xs-12" src="http://austintexas.gov/sites/default/files/Hands-free-small_1.jpg" alt="Austin is Hands-free"></a>
+						</li>
+					</ul>
+				</section>
+				<section class="cityView">
+					<h3>CityView</h3>
+					<iframe class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" src="https://www.youtube.com/embed/Q5hMWGd1jng?list=PL361827DAF822B6FC" frameborder="0" allowfullscreen></iframe>
+				</section>
 			</main>
+			<div class="footerPush"></div>
+			<footer>
+				<ul>
+					<li>
+						<a href=""><span class="fa fa-home"></span><br>
+							Resident</a>
+					</li>
+					<li>
+						<a href=""><span class="fa fa-building-o"></span><br>
+							Business</a>
+					</li>
+					<li>
+						<a href=""><span class="fa fa-briefcase"></span><br>
+							Development</a>
+					</li>
+					<li>
+						<a href=""><span class="fa fa-institution"></span><br>
+							Government</a>
+					</li>
+					<li>
+						<a href=""><span class="fa fa-leaf"></span><br>
+							Environment</a>
+					</li>
+				</ul>
+			</footer>
 		</div>
-		<script src="assets/js/main.js"></script>
-		<link rel="stylesheet" href="assets/css/main.css">
+		<script type="text/javascript" src="assets/js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	</body>
 </html>

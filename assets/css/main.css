@@ -109,22 +109,22 @@ a:hover, a:focus{
 }
 
 /* ========== Nav ========== */
-nav.sidr ul:first-child li:first-child{
+nav.sidr > ul:nth-child(2) > li:first-child{
 	background: #656E75;
 }
-nav.sidr ul:first-child li:nth-child(2){
+nav.sidr > ul:nth-child(2) > li:nth-child(2){
 	background: #AA561D;
 }
-nav.sidr ul:first-child li:nth-child(3){
+nav.sidr > ul:nth-child(2) > li:nth-child(3){
 	background: #674B32;
 }
-nav.sidr ul:first-child li:nth-child(4){
+nav.sidr > ul:nth-child(2) > li:nth-child(4){
 	background: #733F3C;
 }
-nav.sidr ul:first-child li:last-child{
+nav.sidr > ul:nth-child(2) > li:last-child{
 	background: #616328;
 }
-nav.sidr ul:first-child li:hover{
+nav.sidr > ul:nth-child(2) > li:hover{
 	box-shadow: inset 0 0 6px 0 rgba(34,34,34,.45) !important;
 }
 
@@ -136,7 +136,7 @@ header a{
 	display: block !important;
 	width: 100%;
 }
-header a, header img{
+header a, header .logo img{
 	padding: 0 !important;
 }
 header .fa.fa-bars, header .fa.fa-search{
@@ -148,11 +148,11 @@ header .fa.fa-bars, header .fa.fa-search{
 header .fa.fa-bars:hover, header .fa.fa-search:hover{
 	color: #6B6361;
 }
-header img{
+header .logo img{
 	display: block;
 	width: 60%;
 	min-width: 200px;
-	max-width: 265px;
+	max-width: 255px;
 	margin: 0 auto;
 }
 
@@ -164,6 +164,9 @@ main section{
 	width: 100%;
 }
 
+main .cta{
+	overflow: hidden
+}
 main .cta img{
 	float: right;
 	min-width: 100%;
@@ -223,22 +226,84 @@ main section.headlines ul li .caret{
 	border-top: 10px solid #EBE8E1;
 	margin-top: 9px;
 }
-main section.headlines ul li ul li a:after{
-	content: ">";
-	float: right;
-	margin: -27px -7px 0 0;
-	padding: 0;
-	font-size: 1.4em;
-}
-main section.headlines > ul > li:first-child a:after{
-	margin-top: -8px;
-}
 main section.headlines ul li a span.title{
 	font-size: 1.1em;
 	font-weight: 500;
 	color: #BF5700;
 }
 
+/* ========== Banners ========== */
+.banners{
+	margin-top: 13px;
+}
+.banners ul, .banners ul li{
+	margin: 0;
+	padding: 0;
+}
+.banners ul li:first-child, .banners ul li:nth-child(2){
+	margin-bottom: 10px;
+}
+.banners ul li img{
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/* ========== CityView ========== */
+.cityView{
+	margin-bottom: 25px;
+}
+
+/* ========== Footer ========== */
+.footerPush{
+	float: left;
+	clear: both;
+	width: 100%;
+}
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	width: 100%;
+}
+footer ul li{
+	width: 20%;
+	float: left;
+}
+footer > ul > li:first-child{
+	background: #656E75;
+}
+footer > ul > li:nth-child(2){
+	background: #AA561D;
+}
+footer > ul > li:nth-child(3){
+	background: #674B32;
+}
+footer > ul > li:nth-child(4){
+	background: #733F3C;
+}
+footer > ul > li:last-child{
+	background: #616328;
+}
+footer > ul > li:hover{
+	box-shadow: inset 0 0 6px 0 rgba(34,34,34,.45) !important;
+}
+footer ul li a{
+	color: #F4F3EF;
+	display: block;
+	text-align: center;
+	padding: 20px 0;
+}
+footer ul li a:hover{
+	color: #F4F3EF;
+}
+footer ul li a .fa{
+	margin-bottom: 7px;
+	font-size: 1.6em;
+}
 
 
 /* ========== Media Queries ========== */
@@ -260,6 +325,15 @@ main section.headlines ul li a span.title{
 	main .cta .cta-txt h3{
 		font-size: 1.5em;
 	}
+	footer ul li a{
+		font-size: .75em;
+	}
+	footer ul li a .fa{
+		font-size: 1.8em;
+	}
+	main section.cityView iframe{
+		height: 235px;
+	}
 }
 @media(min-width: 600px) and (max-width: 700px){
 	main .cta img{
@@ -275,6 +349,9 @@ main section.headlines ul li a span.title{
 	main .cta .cta-txt h3{
 		font-size: 1.7em;
 	}
+	main section.cityView iframe{
+		height: 287px;
+	}
 }
 @media(min-width: 700px){
 	main .cta img{
@@ -288,5 +365,8 @@ main section.headlines ul li a span.title{
 	}
 	main .cta .cta-txt h3{
 		font-size: 2em;
+	}
+	main section.cityView iframe{
+		height: 407px;
 	}
 }
