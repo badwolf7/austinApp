@@ -164,6 +164,9 @@ main section{
 	width: 100%;
 }
 
+main .cta{
+	overflow: hidden
+}
 main .cta img{
 	float: right;
 	min-width: 100%;
