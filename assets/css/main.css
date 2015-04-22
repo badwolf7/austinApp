@@ -246,6 +246,11 @@ main section.headlines ul li a span.title{
 	padding: 0;
 }
 
+/* ========== CityView ========== */
+.cityView{
+	margin-bottom: 25px;
+}
+
 /* ========== Footer ========== */
 .footerPush{
 	float: left;
