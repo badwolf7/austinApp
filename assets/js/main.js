@@ -70,5 +70,8 @@ $(function(){
 		$('a[href="#resCollapseOne"]').click();
 	}, 420); // 400 works but giving a little padding just to be safe
 
-
+	// set height for footer push
+	var footerHeight = $('footer').height();
+	console.log(footerHeight);
+	$('.footerPush').height(footerHeight);
 });
