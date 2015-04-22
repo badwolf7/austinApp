@@ -229,6 +229,23 @@ main section.headlines ul li a span.title{
 	color: #BF5700;
 }
 
+/* ========== Banners ========== */
+.banners{
+	margin-top: 25px;
+}
+.banners ul, .banners ul li{
+	margin: 0;
+	padding: 0;
+}
+.banners ul li:first-child, .banners ul li:nth-child(2){
+	margin-bottom: 10px;
+}
+.banners ul li img{
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+}
+
 /* ========== Footer ========== */
 .footerPush{
 	float: left;
@@ -306,6 +323,9 @@ footer ul li a .fa{
 	footer ul li a .fa{
 		font-size: 1.8em;
 	}
+	main section.cityView iframe{
+		height: 235px;
+	}
 }
 @media(min-width: 600px) and (max-width: 700px){
 	main .cta img{
@@ -321,6 +341,9 @@ footer ul li a .fa{
 	main .cta .cta-txt h3{
 		font-size: 1.7em;
 	}
+	main section.cityView iframe{
+		height: 287px;
+	}
 }
 @media(min-width: 700px){
 	main .cta img{
@@ -334,5 +357,8 @@ footer ul li a .fa{
 	}
 	main .cta .cta-txt h3{
 		font-size: 2em;
+	}
+	main section.cityView iframe{
+		height: 407px;
 	}
 }
